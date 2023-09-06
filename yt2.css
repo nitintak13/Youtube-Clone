@@ -1,0 +1,421 @@
+.smallbar {
+  width: 5%;
+}
+.smallbar .li {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: -6px;
+  left: -13px;
+  margin-left: 13px;
+  margin-bottom: 31px;
+  /* font-size: 10px; */
+}
+.smallbar .li .bet {
+  position: relative;
+  left: -57px;
+}
+.smallbar .li .bet1 {
+  position: relative;
+  left: -57px;
+}
+.smallbar .li:hover {
+  background-color: aliceblue;
+}
+.smallbar .li p {
+  font-size: 12px;
+  position: relative;
+  top: 17px;
+  left: -45px;
+}
+
+.smallbar .rem {
+  display: none;
+}
+.smallbar .fa-solid {
+  font-size: 21px;
+}
+
+.smallbar .fa-regular {
+  font-size: 21px;
+}
+.smallbar #sub {
+  display: none;
+}
+.smallbar #ex {
+  display: none;
+}
+.smallbar b {
+  display: none;
+}
+.smallbar hr {
+  display: none;
+}
+
+.tog {
+  width: 100%;
+  position: fixed;
+  left: 83px;
+}
+.tog .element {
+  position: relative;
+  left: -126px;
+}
+.pic {
+  width: 1414px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-gap: 0px 1px;
+  position: relative;
+  top: 97px;
+  left: -24px;
+  float: right;
+}
+.pic .video .img {
+  height: 205px;
+  width: 334px;
+}
+.pic .video .logo {
+  width: 52px;
+  position: relative;
+  top: 39px;
+  left: -1px;
+}
+.pic .video .lg {
+  width: 26px;
+  height: 26px;
+}
+
+.pic .video .desc {
+  width: 294px;
+  position: relative;
+  top: -17px;
+  left: 57px;
+  font-size: 14px;
+}
+.pic .video .desc2 {
+  width: 168px;
+  position: relative;
+  top: -11px;
+  left: 58px;
+  font-size: 11px;
+}
+
+.naam {
+  z-index: 9;
+  height: 441px;
+  width: 256px;
+  background-color: white;
+  border: 1px solid rgb(173, 164, 164);
+  border-radius: 10px;
+  position: fixed;
+  top: 59px;
+  right: 16px;
+  display: none;
+  cursor: pointer;
+  /* justify-content: flex-start; */
+}
+.naam .extra:hover {
+  background-color: gainsboro;
+}
+.naam .extra {
+  list-style: none;
+  position: relative;
+  top: -6px;
+  left: -25px;
+  width: 229px;
+  height: 46px;
+  border: 1px solid rgb(244, 250, 248);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+.naam .extra .fa-solid {
+  font-size: 20px;
+  position: relative;
+  top: 13px;
+  left: 5px;
+}
+.naam .extra .fa-regular {
+  font-size: 21px;
+  position: relative;
+  top: 13px;
+  left: 5px;
+}
+.naam .extra .fas {
+  font-size: 21px;
+  position: relative;
+  top: 13px;
+  left: 5px;
+}
+.naam .pa {
+  position: relative;
+  top: -5px;
+  left: 9px;
+}
+
+.naam .extra .great {
+  font-size: 17px;
+  position: relative;
+  top: 14px;
+  left: 57px;
+}
+.naam .hor {
+  width: 104%;
+  position: relative;
+  top: -8px;
+  left: -23px;
+}
+.naam .choose {
+  width: 87px;
+  height: 29px;
+  position: relative;
+  top: -2px;
+  left: 0px;
+}
+
+.searchdiv {
+  width: 32%;
+  position: fixed;
+  top: 58px;
+  left: 481px;
+  z-index: 10;
+  background-color: white;
+  border-radius: 14px;
+  height: 368px;
+}
+
+.searchdiv .searchli {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  position: relative;
+  top: -5px;
+  left: -28px;
+  width: 457px;
+  height: 39px;
+  margin-bottom: 0px;
+}
+.searchdiv .searchli:hover {
+  background-color: gainsboro;
+}
+.searchdiv .searchli .fa-solid {
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: -11px;
+}
+.searchdiv .searchli .searchpara {
+  font-size: 20px;
+  position: relative;
+  top: -13px;
+  left: -20px;
+}
+
+.themebox {
+  display: none;
+  position: fixed;
+  top: 53px;
+  left: 1306px;
+  z-index: 13;
+  background-color: white;
+  border: 1px solid black;
+  width: 172px;
+  height: 168px;
+  border-radius: 12px;
+}
+.themebox .themeitem {
+  margin-bottom: -8px;
+  display: flex; 
+  justify-content: space-evenly; *
+  font-size: 20px;
+  position: relative;
+  top: -47px;
+  left: 6px;
+  width: 162px;
+  height: 32px;
+  border: 1px solid rgb(244, 240, 240);
+  border-radius: 13px;
+}
+/* .themebox .mode {
+  position: relative;
+  top: -41px;
+  left: 3px;
+  width: 162px;
+  height: 47px;
+  margin-bottom: 0px;
+} */
+.themebox .mode:hover {
+  background-color: gainsboro;
+}
+.themebox .hz {
+  position: relative;
+  top: -45px;
+  left: 0px;
+  width: 169px;
+}
+.themebox .fa-solid {
+  /* z-index: 15px; */
+  font-size: 21px;
+  position: relative;
+  top: -2px;
+  left: 11px;
+}
+/* .themebox.themeitem .fa-solid:hover {
+  background-color: gainsboro;
+} */
+
+.darkbody{
+  background-color: black;
+  color: white;
+
+}
+.darkheader{
+  background-color: black;
+  color: white;
+}
+.darkheader #navbar{
+  background-color: black;
+  color: white;
+}
+.nav1{
+  background-color: rgb(21, 16, 16);
+  color: white;
+}
+.nav1 .input{
+  background-color: black;
+  color: white;
+}
+.nav1 .lg{
+  color: white;
+}
+.nav1 #search{
+  background-color: black;
+}
+.nav1 #mic{
+  background-color: black;
+}
+.nav1 #mic{
+  background-color: rgb(76, 70, 70);
+}
+.nav1 #search{
+  background-color: rgb(76, 70, 70);
+}
+.nav1 #camera:hover{
+  background-color: rgb(76, 70, 70);
+}
+.nav1 #notify:hover{
+  background-color: rgb(89, 84, 84);
+}
+.nav1 #name{
+  background-color: white;
+  color: black;
+}
+.nav1 #name:hover{
+  background-color: rgb(171, 165, 165);
+}
+.sidebar4 {
+  background-color: black;
+  color: white;
+}
+.sidebar4 #sidebar{
+  background-color: black;
+}
+
+.sidebar4 .li:hover{
+  background-color: rgb(174, 156, 156,0.3);
+  /* color: black; */
+}
+.sidebar4 .img:hover{
+  background-color: rgb(174, 156, 156,0.3);
+}
+.sidebar4 .ex:hover{
+  background-color: rgb(174, 156, 156,0.3);
+}
+.items1 {
+  background-color: black;
+  color: white;
+}
+.sidecont1 {
+  background-color: black;
+  color: white;
+}
+/* .sidecont1 p{
+   color: white;
+} */
+.toggle1 {
+  background-color: black;
+  color: white;
+}
+.toggle1 #st{
+  background-color: white;
+  color: black;
+}
+.toggle1 .element{
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+}
+.toggle1 .element:hover{
+  background-color: white;
+  color: black;
+}
+
+.themebox1 {
+  background-color: black;
+  color: white;
+}
+.themebox1 .themeitem{
+  border: 1px solid rgb(167, 163, 163);
+}
+.themebox1 .mode:hover{
+  background-color: white;
+  color: black;
+}
+.naam1 {
+  background-color: black;
+  color: white;
+}
+.naam1 .extra {
+ border: 1px solid rgb(167, 163, 163);
+}
+
+.naam1 .extra:hover{
+  background-color: white;
+  color: black;
+}
+.sbox1 {
+  background-color: black;
+  color: white;
+}
+.sbox1 .searchli:hover{
+  background-color: rgb(174, 156, 156,0.3);
+}
+
+
+
+@media (max-width: 400px) {
+  .body{
+    /* background-color: rgb(247, 243, 243); */
+   
+  }
+  .themebox{
+    position: fixed;
+    top: 62px;
+    left: 400px;
+  }
+.items1{
+  color: rgb(20, 15, 15);
+  color: white;
+  /* background-color: rgb(252, 252, 252); */
+  /* display: block; */
+}
+.sidecont1 .side-box{
+  background-color: black;
+  color: white;
+}
+
+
+}

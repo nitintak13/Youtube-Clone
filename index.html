@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Youtube-1</title>
+    <link rel="stylesheet" href="yt.css">
+    <link rel="stylesheet" href="yt2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <!-- main div -->
+        <div id="navbar" class="nav">
+            <!-- box 1 -->
+            <div class="box1">
+                <div id="line"><img src="bar.png" class="bar" width="25px" height="25px" alt="">
+                </div>
+                <div id="logo"><i class="fa-brands fa-youtube" class="lg" style="color: #e52e2e;"></i>
+                </div>
+                <div id="para">
+                    <h2 id="h2">Youtube</h2>
+                </div>
+                <div id="in">
+                    <h6 id="h6">IN</h6>
+                </div>
+            </div>
+            <!-- box2 -->
+            <div class="box2">
+                <input type="text" id="bar" class="input" placeholder="Search">
+
+                <div id="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div id="mic"><i class="fa-solid fa-microphone"></i></div>
+            </div>
+            <!-- box3 -->
+            <div class="box3">
+                <div id="camera"><i class=" fa-solid fa-video"></i></div>
+                <div id="notify"><i class="fa-solid fa-bell"></i></div>
+                <div id="name" class="name"><i class="fa-solid fa-n"></i></div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="toggle">
+
+            <span id="st" class="element">All</span>
+            <span class="element">Gaming</span>
+            <span class="element">Live</span>
+            <span class="element">Movies</span>
+
+            <span class="element">T-series</span>
+            <span class="element">Cricket</span>
+            <span class="element">Physics</span>
+            <span class="element">News</span>
+            <span class="element">Laptops</span>
+            <span class="element">Technology</span>
+            <span class="element">Asia Cup</span>
+            <span class="element">Driving</span>
+            <span class="element">Recently uploaded</span>
+            <span class="element">Watched</span>
+            <span class="element">New to you</span>
+
+
+            <!-- <div id="other">
+                <span class="element">Gaming</span>
+                <span class="element">Live</span>
+                <span class="element">News</span>
+                <span class="element">All</span>
+                <span class="element">Gaming</span>
+                <span class="element">Live</span>
+                <span class="element">News</span>
+                <span class="element">Laptops</span>
+                <span class="element">T-series</span>
+                <span class="element">Cricket</span>
+                <span class="element">Physics</span>
+                <span class="element">Recently uploaded</span>
+                <span class="element">Watched</span>
+                <span class="element">New to you</span>
+            </div> -->
+        </div>
+    </header>
+
+
+    <!-- sidebar -->
+    <div id="sidebar" class="sidebar1">
+        <ul>
+            <li class="li"><i class="fa-solid fa-house icon"></i>&nbsp;&nbsp;&nbsp; <p>Home</p>
+            </li>
+            <li class="li"><i class="fa-solid fa-bolt icon"></i>&nbsp;&nbsp;&nbsp;&nbsp; <p>Shorts</p>
+            </li>
+            <li class="li "><i class="fa-regular fa-heart icon"></i>&nbsp;&nbsp;&nbsp; <p class="bet">Subscriptions</p>
+            </li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li class="li "><i class="fa-regular fa-circle-play colors"></i>&nbsp;&nbsp;&nbsp;<p> Library</p>
+            </li>
+            <li class="li rem"><i class="fa-solid fa-clock-rotate-left"></i>&nbsp;&nbsp;&nbsp; <p> History</p>
+            </li>
+            <li class="li rem"><i class="fa-regular fa-clock"></i>&nbsp;&nbsp;&nbsp;<p>Watch Later</p>
+            </li>
+            <li class="li"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp; <p class="bet1">Downloads</p>
+            </li>
+            <li class="li rem"><i class="fa-regular fa-thumbs-up"></i>&nbsp;&nbsp;&nbsp; <p>Liked videos</p>
+            </li>
+
+        </ul>
+        <hr width="75%" style="opacity: 0.3;">
+        <b>&nbsp;&nbsp;&nbsp;&nbsp;Subscriptions</b>
+        <ul id="sub">
+            <li class="img"> <img src="mrind.jpeg" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Mr Indian Hacker</li>
+
+            <li class="img"><img src="tse.png" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; T Series</li>
+
+            <li class="img"> <img src="freecode.svg" width="23px" height="26px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Free Code Camp</li>
+
+            <li class="img"><img src="sony.jpeg" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Sony India</li>
+
+
+            <li class="img"><img src="mrbeast.jpeg" width="20px" height="22px"
+                    style="margin-right: 9px; border-radius: 50%;">&nbsp; Mr Beast</li>
+        </ul>
+        <hr width="75%" style="opacity: 0.3;">
+        <b>&nbsp;&nbsp;&nbsp;&nbsp;Explore</b>
+        <ul id="ex">
+            <li class="ex"><i class="fa-solid fa-fire colors"></i>&nbsp; &nbsp;&nbsp;&nbsp;Trending</li>
+            <li class="ex"><i class="fa-solid fa-bag-shopping colors"></i>&nbsp;&nbsp;&nbsp;&nbsp; Shopping</li>
+            <li class="ex"><i class="fa-solid fa-music colors"></i>&nbsp;&nbsp;&nbsp;&nbsp; Music</li>
+            <li class="ex"><i class="fa-solid fa-film colors"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Films</li>
+            <li class="ex"><i class="fa-solid fa-signal colors"></i>&nbsp;&nbsp;&nbsp;&nbsp;Live</li>
+            <li class="ex"><i class="fa-solid fa-gamepad colors"></i>&nbsp;&nbsp;&nbsp;&nbsp;Gaming</li>
+        </ul>
+    </div>
+
+
+
+
+
+
+    <div class="items" id="main">
+        <div id="one" class="video">
+            <!-- <img src="virat.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="virat.jpeg" class="img" height="225px" width="380px">
+                <source src="Full highlights of Kohli s Perth classic.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+
+
+            <div class="logo">
+                <img src="logovirat.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kohli's FIRST Test Century in England!
+                Edgbaston 2018 | England Cricket</div>
+            <div class="desc2">
+                <p>England and Wales Cricket Board </p><br>
+                11M views 2 years ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="kesariya.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Kesariya - Brahmāstra _ Ranbir Kapoor _ Alia Bhatt _ Pritam _ Arijit Singh _ Amitabh Bhattacharya.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="logobeast.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kesariya - Brahmāstra | Ranbir Kapoor | Alia Bhatt | Pritam | Arijit Singh
+            </div>
+            <div class="desc2">
+                <p>Dharma Productions</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+
+        <div class="video" id="nine">
+            <!-- <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="war2.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="WAR _ Trailer _ Hrithik Roshan _ Tiger Shroff _ Vaani Kapoor _ Siddharth Anand _ YRF Spy Universe.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="xi">5:05</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">WAR | Trailer | Hrithik Roshan | Tiger Shroff | Vaani Kapoor</div>
+            <div class="desc2">
+                <p>YRF</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+
+
+        <div class="video" id="four">
+            <!-- <img src="luka.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="luka.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Luka Chuppi Official Trailer _ Kartik Aaryan, Kriti Sanon, Dinesh Vijan, Laxman Utekar _ Mar 1.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="iv">2:30</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Luka Chuppi | Watch Full Movie on JioCinema |
+                Kartik Aryan | Kriti Sanon</div>
+            <div class="desc2">
+                <p>JioCinema</p><br>
+                800M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="five">
+            <!-- <img src="fraz.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="google.jpg" class="img" height="225px" width="380px">
+                <source src="Life at Google _ 1 Month at Google Gurgaon Office.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="v">9:19</p> -->
+            <div class="logo">
+                <img src="logofraz.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">How I Cracked my Dream Company GOOGLE</div>
+            <div class="desc2">
+                <p>Fraz</p><br>
+                1.4M views 1 year ago
+            </div>
+        </div>
+
+        <div class="video" id="six">
+            <!-- <img src="bean.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="raat.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Raataan Lambiyan – Official Video _ Shershaah _ Sidharth – Kiara _ Tanishk B_ Jubin Nautiyal  _Asees.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vi">18:40</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Raataan Lambiyan | Official Video | Shershaah | Sidharth Kiara
+            </div>
+            <div class="desc2">
+                <p>Zee Music Company</p><br>
+                57M views 4 years ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="pathan.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Pathaan _ Official Teaser _ Shah Rukh Khan _ Deepika Padukone _ John Abraham _ Siddharth Anand.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Pathaan Trailer | Shah Rukh Khan | Deepika Padukone | John Abraham
+            </div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div class="video" id="two">
+            <!-- <img src="dr.png" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="rajas.jpg" class="img" height="225px" width="380px">
+                <source src="HALLA BOL by Amit Trivedi feat. Mame Khan LIVE in Concert Rajasthan Royals.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="ii">10:13</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">HALLA BOL by Amit Trivedi feat. Mame Khan | LIVE | Rajasthan Royals</div>
+            <div class="desc2">
+                <p>Rajasthan Royals</p><br>
+                1.6M views 14 hours ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="kesariya.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Kesariya - Brahmāstra _ Ranbir Kapoor _ Alia Bhatt _ Pritam _ Arijit Singh _ Amitabh Bhattacharya.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="logobeast.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kesariya - Brahmāstra | Ranbir Kapoor | Alia Bhatt | Pritam | Arijit Singh
+            </div>
+            <div class="desc2">
+                <p>Dharma Productions</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div class="video" id="eight">
+            <!-- <img src="hacker.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="duniyaa.jpg" class="img" height="225px" width="380px">
+                <source src="Luka Chuppi_ Duniyaa Full Video Song _ Kartik Aaryan Kriti Sanon _ Akhil _ Dhvani B.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="viii">12:04</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">
+                Luka Chuppi | Duniyaa Full Video Song | Kartik Aaryan Kriti Sanon
+            </div>
+            <div class="desc2">
+                <p>Jio Cinema</p><br>
+                5.2M views 1 month ago
+            </div>
+        </div>
+
+
+        <div class="video" id="eight">
+            <!-- <img src="hacker.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="micro.jpg" class="img" height="225px" width="380px">
+                <source src="An _eventful_ Day in the Life of a Google Software Engineer (NYC Edition).mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="viii">12:04</p> -->
+            <div class="logo">
+                <img src="goog.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">
+                A day in the life of a Microsoft Software Engineer in India ❤️ | Microsoft
+            </div>
+            <div class="desc2">
+                <p>Nishant Chahar</p><br>
+                5.2M views 1 month ago
+            </div>
+        </div>
+
+        <div class="video" id="four">
+            <!-- <img src="luka.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="luka.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Luka Chuppi Official Trailer _ Kartik Aaryan, Kriti Sanon, Dinesh Vijan, Laxman Utekar _ Mar 1.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="iv">2:30</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Luka Chuppi | Watch Full Movie on JioCinema |
+                Kartik Aryan | Kriti Sanon</div>
+            <div class="desc2">
+                <p>JioCinema</p><br>
+                800M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="nine">
+            <!-- <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="ssr.png" class="img" height="225px" width="380px">
+                <source
+                    src="Full Song_ KHAIRIYAT (BONUS TRACK) _ CHHICHHORE _ Sushant, Shraddha _ Pritam, Amitabh B_Arijit Singh.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="xi">5:05</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Full Song: KHAIRIYAT (BONUS TRACK) |
+                Sushant, Shraddha | Arijit Singh</div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+        <div id="one" class="video">
+            <!-- <img src="virat.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="virat.jpeg" class="img" height="225px" width="380px">
+                <source src="Full highlights of Kohli s Perth classic.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+
+
+            <div class="logo">
+                <img src="logovirat.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kohli's FIRST Test Century in England!
+                Edgbaston 2018 | England Cricket</div>
+            <div class="desc2">
+                <p>England and Wales Cricket Board </p><br>
+                11M views 2 years ago
+            </div>
+        </div>
+        <div class="video" id="three">
+            <!-- <img src="upsc.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="upsc.jpeg" class="img" height="225px" width="380px">
+                <source src="Lift- Stand Up Comedy By Anubhav Singh Bassi.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="iii">14:55</p> -->
+            <div class="logo">
+                <img src="logoupsc.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">UPSC - Stand Up Comedy Ft. Anubhav Singh Bassi</div>
+            <div class="desc2">
+                <p>Anubhav Singh Bassi</p><br>
+                29M views 4 weeks ago
+            </div>
+        </div>
+        <div class="video" id="two">
+            <!-- <img src="dr.png" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="rajas.jpg" class="img" height="225px" width="380px">
+                <source src="HALLA BOL by Amit Trivedi feat. Mame Khan LIVE in Concert Rajasthan Royals.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="ii">10:13</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">HALLA BOL by Amit Trivedi feat. Mame Khan | LIVE | Rajasthan Royals</div>
+            <div class="desc2">
+                <p>Rajasthan Royals</p><br>
+                1.6M views 14 hours ago
+            </div>
+        </div>
+        <div class="video" id="six">
+            <!-- <img src="bean.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="raat.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Raataan Lambiyan – Official Video _ Shershaah _ Sidharth – Kiara _ Tanishk B_ Jubin Nautiyal  _Asees.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vi">18:40</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Raataan Lambiyan | Official Video | Shershaah | Sidharth Kiara
+            </div>
+            <div class="desc2">
+                <p>Zee Music Company</p><br>
+                57M views 4 years ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="kesariya.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Kesariya - Brahmāstra _ Ranbir Kapoor _ Alia Bhatt _ Pritam _ Arijit Singh _ Amitabh Bhattacharya.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="logobeast.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kesariya - Brahmāstra | Ranbir Kapoor | Alia Bhatt | Pritam | Arijit Singh
+            </div>
+            <div class="desc2">
+                <p>Dharma Productions</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="pathan.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Pathaan _ Official Teaser _ Shah Rukh Khan _ Deepika Padukone _ John Abraham _ Siddharth Anand.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Pathaan Trailer | Shah Rukh Khan | Deepika Padukone | John Abraham
+            </div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div class="video" id="eight">
+            <!-- <img src="hacker.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="micro.jpg" class="img" height="225px" width="380px">
+                <source src="An _eventful_ Day in the Life of a Google Software Engineer (NYC Edition).mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="viii">12:04</p> -->
+            <div class="logo">
+                <img src="goog.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">
+                A day in the life of a Microsoft Software Engineer in India ❤️ | Microsoft
+            </div>
+            <div class="desc2">
+                <p>Nishant Chahar</p><br>
+                5.2M views 1 month ago
+            </div>
+        </div>
+
+
+        <div class="video" id="nine">
+            <!-- <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="ssr.png" class="img" height="225px" width="380px">
+                <source
+                    src="Full Song_ KHAIRIYAT (BONUS TRACK) _ CHHICHHORE _ Sushant, Shraddha _ Pritam, Amitabh B_Arijit Singh.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="xi">5:05</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Full Song: KHAIRIYAT (BONUS TRACK) |
+                Sushant, Shraddha | Arijit Singh</div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+        <div class="video" id="nine">
+            <!-- <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="war2.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="WAR _ Trailer _ Hrithik Roshan _ Tiger Shroff _ Vaani Kapoor _ Siddharth Anand _ YRF Spy Universe.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="xi">5:05</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">WAR | Trailer | Hrithik Roshan | Tiger Shroff | Vaani Kapoor</div>
+            <div class="desc2">
+                <p>YRF</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+
+
+        <div class="video" id="four">
+            <!-- <img src="luka.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="luka.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Luka Chuppi Official Trailer _ Kartik Aaryan, Kriti Sanon, Dinesh Vijan, Laxman Utekar _ Mar 1.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="iv">2:30</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Luka Chuppi | Watch Full Movie on JioCinema |
+                Kartik Aryan | Kriti Sanon</div>
+            <div class="desc2">
+                <p>JioCinema</p><br>
+                800M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="five">
+            <!-- <img src="fraz.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="google.jpg" class="img" height="225px" width="380px">
+                <source src="Life at Google _ 1 Month at Google Gurgaon Office.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="v">9:19</p> -->
+            <div class="logo">
+                <img src="logofraz.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">How I Cracked my Dream Company GOOGLE</div>
+            <div class="desc2">
+                <p>Fraz</p><br>
+                1.4M views 1 year ago
+            </div>
+        </div>
+
+
+
+        <div class="video" id="four">
+            <!-- <img src="luka.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="luka.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Luka Chuppi Official Trailer _ Kartik Aaryan, Kriti Sanon, Dinesh Vijan, Laxman Utekar _ Mar 1.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="iv">2:30</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Luka Chuppi | Watch Full Movie on JioCinema |
+                Kartik Aryan | Kriti Sanon</div>
+            <div class="desc2">
+                <p>JioCinema</p><br>
+                800M views 1 year ago
+            </div>
+        </div>
+        <div class="video" id="nine">
+            <!-- <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="ssr.png" class="img" height="225px" width="380px">
+                <source
+                    src="Full Song_ KHAIRIYAT (BONUS TRACK) _ CHHICHHORE _ Sushant, Shraddha _ Pritam, Amitabh B_Arijit Singh.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="xi">5:05</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Full Song: KHAIRIYAT (BONUS TRACK) |
+                Sushant, Shraddha | Arijit Singh</div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="pathan.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Pathaan _ Official Teaser _ Shah Rukh Khan _ Deepika Padukone _ John Abraham _ Siddharth Anand.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Pathaan Trailer | Shah Rukh Khan | Deepika Padukone | John Abraham
+            </div>
+            <div class="desc2">
+                <p>T-Series</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+        <div id="one" class="video">
+            <!-- <img src="virat.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="virat.jpeg" class="img" height="225px" width="380px">
+                <source src="Full highlights of Kohli s Perth classic.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+
+
+            <div class="logo">
+                <img src="logovirat.jpg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kohli's FIRST Test Century in England!
+                Edgbaston 2018 | England Cricket</div>
+            <div class="desc2">
+                <p>England and Wales Cricket Board </p><br>
+                11M views 2 years ago
+            </div>
+        </div>
+        <div class="video" id="three">
+            <!-- <img src="upsc.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="upsc.jpeg" class="img" height="225px" width="380px">
+                <source src="Lift- Stand Up Comedy By Anubhav Singh Bassi.mp4" type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="iii">14:55</p> -->
+            <div class="logo">
+                <img src="logoupsc.jpeg" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">UPSC - Stand Up Comedy Ft. Anubhav Singh Bassi</div>
+            <div class="desc2">
+                <p>Anubhav Singh Bassi</p><br>
+                29M views 4 weeks ago
+            </div>
+        </div>
+        <div class="video" id="two">
+            <!-- <img src="dr.png" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="rajas.jpg" class="img" height="225px" width="380px">
+                <source src="HALLA BOL by Amit Trivedi feat. Mame Khan LIVE in Concert Rajasthan Royals.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="ii">10:13</p> -->
+            <div class="logo">
+                <img src="logojio.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">HALLA BOL by Amit Trivedi feat. Mame Khan | LIVE | Rajasthan Royals</div>
+            <div class="desc2">
+                <p>Rajasthan Royals</p><br>
+                1.6M views 14 hours ago
+            </div>
+        </div>
+        <div class="video" id="nine">
+            <!-- <img src="ssr1.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="war2.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="WAR _ Trailer _ Hrithik Roshan _ Tiger Shroff _ Vaani Kapoor _ Siddharth Anand _ YRF Spy Universe.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="xi">5:05</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">WAR | Trailer | Hrithik Roshan | Tiger Shroff | Vaani Kapoor</div>
+            <div class="desc2">
+                <p>YRF</p><br>
+                940M views 3 years ago
+            </div>
+
+        </div>
+
+        <div class="video" id="six">
+            <!-- <img src="bean.jpg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="raat.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Raataan Lambiyan – Official Video _ Shershaah _ Sidharth – Kiara _ Tanishk B_ Jubin Nautiyal  _Asees.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vi">18:40</p> -->
+            <div class="logo">
+                <img src="tseries.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Raataan Lambiyan | Official Video | Shershaah | Sidharth Kiara
+            </div>
+            <div class="desc2">
+                <p>Zee Music Company</p><br>
+                57M views 4 years ago
+            </div>
+        </div>
+        <div class="video" id="seven">
+            <!-- <img src="beast1.jpeg" alt="" class="img" height="225px" width="380px"> -->
+            <video controls="" poster="kesariya.jpg" class="img" height="225px" width="380px">
+                <source
+                    src="Kesariya - Brahmāstra _ Ranbir Kapoor _ Alia Bhatt _ Pritam _ Arijit Singh _ Amitabh Bhattacharya.mp4"
+                    type="video/mp4">
+                your video does not supported.
+            </video>
+            <!-- <p class="time" id="vii">13:28</p> -->
+            <div class="logo">
+                <img src="logobeast.png" alt="" class="lg" height="35px" width="35px">
+            </div>
+            <div class="desc">Kesariya - Brahmāstra | Ranbir Kapoor | Alia Bhatt | Pritam | Arijit Singh
+            </div>
+            <div class="desc2">
+                <p>Dharma Productions</p><br>
+                117M views 9 days ago
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="side-cont">
+            <div class="side-box"><i class="fa-solid fa-house"></i>
+                <p>Home</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-bolt"></i>
+                <p>Shorts</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-laptop-medical"></i>
+                <p>Subscription</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-notes-medical"></i>
+                <p>Library</p>
+            </div>
+            <div class="side-box">
+                <i class="fa-solid fa-download"></i>
+                <p>Download</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="naam">
+        <ul>
+            <li class="extra"><i class="fa-regular fa-images"></i>
+                <p class="pa">Switch accounts</p>
+            </li>
+
+            <li class="extra app"><i class="fa-regular fa-sun"></i>
+                <p class="pa">Appearance</p>
+                <i class="fa-solid fa-greater-than great"></i>
+
+            </li>
+            <li class="extra"><i class="fas fa-sign-out-alt"></i>
+                <p class="pa">Sign out</p>
+            </li>
+            <hr class="hor" width="120%">
+            <li class="extra"><i class="fa-solid fa-language"></i>
+                <p class="pa">Language:English</p>
+            </li>
+
+            <li class="extra"><i class="fa-solid fa-globe"></i>
+                <p class="pa">Location:India</p>
+            </li>
+
+            <li class="extra"><i class="fa-solid fa-gear"></i>
+                <p class="pa">Settings</p>
+            </li>
+            <li class="extra"><i class="fa-regular fa-circle-question"></i>
+                <p class="pa">Help</p>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="searchdiv">
+        <ul>
+            <li class="searchli" id="cvalue"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Avengers gameEnd Official Trailer in Hindi</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Hindi Avengers Endgame Official Trailer in</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Avengers Endgame cialOffi Trailer in Hindi</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Avengers Endgame Official ilerTra in Hindi</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Avengers in Endgame Official Trailer Hindi</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Avengers Endgame Hindi Official Trailer in</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Avengers Endgame Official Trailer in Hindi</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Endgame Official Avengers Trailer in Hindi</p>
+            </li>
+            <li class="searchli"><i class="fa-solid fa-clock-rotate-left"></i>
+                <p class="searchpara" id="endgame">Official Avengers Endgame Trailer in Hindi</p>
+            </li>
+
+
+
+
+        </ul>
+    </div>
+
+
+    <!-- <div id="sidebar_after" class="sidebarafter">
+
+        <ul>
+
+            <li>
+            <li><i class="fa-solid fa-house "></i></li>
+            <b class="text">Home</b></li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li>
+            <li><i class="fa-regular fa-circle-play"></i></li>
+            <b class="text">Shorts</b></li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li>
+            <li><i class="fa-solid fa-bell "></i></li>
+            <b class="text">Subscription</b></li>
+            <hr width="75%" style="opacity: 0.3;">
+            <li>
+            <li><i class="fa-regular fa-circle-play "></i></li>
+            <b class="text">Library</b></li>
+
+            <hr width="75%" style="opacity: 0.3;">
+        </ul>
+    </div> -->
+    <div class="themebox">
+        <div class="back">
+            <p class="leftarrow"><i class="fa-solid fa-arrow-left"></i></p>
+            <p class="themeitem ">Appearance</p>
+        </div>
+
+        <p></p>
+        <hr class="hz">
+        <p class="themeitem mode light">Light Mode</p>
+        <p class="themeitem mode dark">Dark Mode</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
